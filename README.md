@@ -32,4 +32,4 @@ Si tienes alguna pregunta o simplemente quieres hablar sobre programación, no d
 
 ¡Gracias por visitar mi portafolio!
 
-![Mi Foto](./public/image.jpeg)
+![Mi Foto](./public/image.jpg)
