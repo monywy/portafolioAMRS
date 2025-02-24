@@ -10,7 +10,7 @@ export const translations = {
     mainPage: {
       subtitle: "Hola Soy Mónica",
       paragraph:
-        "Desarrollador Web de Córdoba, Argentina. Me especializo en desarrollo Front-end, con experiencia en la creación de interfaces de usuario eficientes y visualmente atractivas.",
+        "Desarrollador Web de Cáncun, México. Me especializo en desarrollo Front-end, con experiencia en la creación de interfaces de usuario eficientes y visualmente atractivas.",
     },
     aboutMe: {
       title: "Sobre mi",
@@ -151,7 +151,7 @@ export const translations = {
     mainPage: {
       subtitle: "Hello I'm Mónica",
       paragraph:
-        "Web Developer from Córdoba, Argentina. I specialize in Front end development, with experience in creating efficient and visually attractive user interfaces.",
+        "Web Developer from Cancún, México. I specialize in Front end development, with experience in creating efficient and visually attractive user interfaces.",
     },
     aboutMe: {
       title: "About me",

@@ -73,7 +73,7 @@ const Footer = () => {
               onMouseEnter={() => setScaling(true)}
               onMouseLeave={() => setScaling(false)}
             >
-              aMónica Roque monica.roque.100@gmail.com{" "}
+              Mónica Roque monica.roque.100@gmail.com{" "}
               <ArrowOutward color="#999999" width="18px" height="18px" />
             </Link>
           </div>
