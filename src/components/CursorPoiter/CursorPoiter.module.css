@@ -1,0 +1,54 @@
+.mover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 13px;
+  height: 13px;
+  background-color: white;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  cursor: none;
+  transform: translate(-50%, -50%);
+}
+
+.cardHover {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.copyHover {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.cursorText {
+  font-size: 12px;
+  font-weight: 500;
+  text-wrap: nowrap;
+  opacity: 0;
+}
+
+.copyHover span {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardHover .cursorText {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .mover {
+    display: none;
+  }
+}
