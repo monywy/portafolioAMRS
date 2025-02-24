@@ -20,13 +20,13 @@ En este portafolio podrás explorar una variedad de proyectos que he desarrollad
 Me encantaría compartir más de mis avances con ustedes. No dudes en seguirme en:
 
 - [GitHub](https://github.com/monywy)  
-- [LinkedIn](https://www.linkedin.com/in/Mónica-Roque Sánchez)
+- [LinkedIn](https://www.linkedin.com/in/mónica-roque-75a904291)
 
 ## 🤝 ¡Conectemos!
 
 Si tienes alguna pregunta o simplemente quieres hablar sobre programación, no dudes en contactarme. ¡Estoy siempre dispuesto a aprender y colaborar!
 
-- [LinkedIn](https://www.linkedin.com/in/Mónica-Roque Sánchez)
+- [LinkedIn](https://www.linkedin.com/in/mónica-roque-75a904291)
 
 ---
 
