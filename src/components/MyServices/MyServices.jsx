@@ -3,6 +3,9 @@ import Zap from "@/assets/icons/Zap";
 import Server from "@/assets/icons/Server";
 import Paint from "@/assets/icons/Paint";
 import styles from "./MyServices.module.css";
+import WebDesign from "@/assets/icons/WebDesign";
+import FigmaLayout from "@/assets/icons/FigmaLayout";
+import DesignConsulting from "@/assets/icons/DesignConsulting";
 import { useEffect, useRef } from "react";
 import { servicesAnimation } from "@/utils/animationGsap/AnimationGsap";
 import { useTranslation } from "@/hooks/useTranslations";
@@ -24,6 +27,21 @@ const MyServices = () => {
     {
       icon: <Paint color="var(--subtitle)" width="25px" height="25px" />,
       title: t.services.cards.card_3.title,
+      description: t.services.cards.card_3.description,
+    },
+    {
+      icon: <FigmaLayout color="var(--subtitle)" width="25px" height="25px" />,
+      title: t.services.cards.card_4.title,
+      description: t.services.cards.card_1.description,
+    },
+    {
+      icon: <DesignConsulting color="var(--subtitle)" width="25px" height="25px" />,
+      title: t.services.cards.card_5.title,
+      description: t.services.cards.card_2.description,
+    },
+    {
+      icon: <WebDesign color="var(--subtitle)" width="25px" height="25px" />,
+      title: t.services.cards.card_6.title,
       description: t.services.cards.card_3.description,
     },
   ];

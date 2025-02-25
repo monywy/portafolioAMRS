@@ -21,10 +21,11 @@ const MainPage = () => {
       <div className={styles.content_text}>
         <span ref={subtitleRef}> {t.mainPage.subtitle} &#128075;</span>
         <div className={styles.content_title} ref={titleRef}>
-          <h1>FrontEnd</h1>
-          <h2>Developer.</h2>
+          <h1>Full Stack</h1>
+          <h2>Developer Junior</h2>
         </div>
         <p ref={description}>{t.mainPage.paragraph}</p>
+        <p ref={description}>{t.mainPage.paragraph2}</p>
       </div>
       <TechnologiesCarrucel ref={carrucel} />
     </section>

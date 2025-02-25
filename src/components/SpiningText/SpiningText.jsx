@@ -5,7 +5,7 @@ import image_about_me from "@/assets/images/image_profile.webp";
 import { useTranslation } from "@/hooks/useTranslations";
 
 const SpiningText = forwardRef(function SpiningText(props, ref) {
-  const text = "FRONTEND DEVELOPER - FRONTEND DEVELOPER - ";
+  const text = "FULL STACK DEVELOPER JUNIOR - DEVELOPER - ";
   const length = text.length;
   const deg = 360 / length;
 

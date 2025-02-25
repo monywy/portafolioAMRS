@@ -8,18 +8,18 @@ export const translations = {
       title_modal: "Seleccione idioma",
     },
     mainPage: {
-      subtitle: "Hola Soy Mónica",
-      paragraph:
-        "Desarrollador Web de Cáncun, México. Me especializo en desarrollo Front-end, con experiencia en la creación de interfaces de usuario eficientes y visualmente atractivas.",
+      subtitle: "Hola Soy Mónica Roque",
+      paragraph:"Desarrolladora Full Stack de Cancún, México. Me especializo en desarrollo front-end y back-end, con experiencia en la creación de aplicaciones web eficientes, escalables y visualmente atractivas.",
+      paragraph2:"MonyCode💜"
     },
     aboutMe: {
       title: "Sobre mi",
-      paragraph_1: "¡Hola! Soy Mónica, desarrollador Front End.",
+      paragraph_1: "¡Hola! Soy Mónica, desarrollador full stack junior.",
       paragraph_2:
-        "Me apasiona crear aplicaciones web intuitivas que mejoren la experiencia del usuario. Cada desafío es una oportunidad para aprender y aportar soluciones creativas.",
+        "Me especializo en el desarrollo de aplicaciones web y móviles intuitivas y eficientes, diseñadas para optimizar la experiencia del usuario. Cada desafío representa una oportunidad para innovar y ofrecer soluciones tecnológicas de alto impacto.",
       paragraph_3:
-        "Siempre busco mejorar mis habilidades y agregar valor a cada proyecto. Me motiva trabajar en equipo, aprender y contribuir al éxito colectivo.",
-      spinnin: "FRONTEND DEVELOPER - FRONTEND DEVELOPER - ",
+        "Estoy comprometida con la mejora continua y la excelencia en cada proyecto. Mi enfoque se basa en el desarrollo de software de calidad, el trabajo en equipo y la entrega de soluciones escalables que generen valor y contribuyan al éxito del negocio.",
+      spinnin: "FULL STACK DEVELOPER JUNIOR - DEVELOPER - ",
     },
     services: {
       subtitle: "Servicios",
@@ -39,6 +39,21 @@ export const translations = {
           title: "Animaciones y Diseño UX/UI",
           description:
             "Diseñando interfaces atractivas con animaciones fluidas y experiencias interactivas.",
+        },
+        card_4: {
+          title: "Maquetado en Figma",
+          description:
+            "Diseño de maquetas de alta fidelidad en Figma para aplicaciones web y móviles.",
+        },
+        card_5: {
+          title: "Asesorías de Diseño",
+          description:
+            "Consultoría en diseño de interfaces y experiencia de usuario (UI/UX).",
+        },
+        card_6: {
+          title: "Creación de Páginas Web",
+          description:
+            "Desarrollo de páginas web con tecnologías como **Angular, React, Next.js y WordPress**, adaptadas a tus necesidades y objetivos.",
         },
       },
     },
@@ -149,37 +164,52 @@ export const translations = {
       title_modal: "Select language",
     },
     mainPage: {
-      subtitle: "Hello I'm Mónica",
-      paragraph:
-        "Web Developer from Cancún, México. I specialize in Front end development, with experience in creating efficient and visually attractive user interfaces.",
+      subtitle: "Hello I'm Mónica Roque",
+      paragraph:"Full Stack Developer from Cancún, México. I specialize in front-end and back-end development, with experience in building efficient, scalable, and visually appealing web applications.",
+      paragraph2:"MonyCode💜"
     },
     aboutMe: {
       title: "About me",
-      paragraph_1: "Hi there, I'm Mónica – a Front End developer.",
+      paragraph_1: "Hi there, I'm Mónica – Full Stack Developer Junior.",
       paragraph_2:
-        "I'm passionate about creating web applications that are easy to use and enhance the user experience. Every challenge is an opportunity to learn and bring creative solutions.",
+        "I specialize in developing intuitive and efficient web and mobile applications designed to enhance the user experience. Every challenge is an opportunity to innovate and deliver high-impact technological solutions.",
       paragraph_3:
-        "I'm always looking to improve my skills and add value to every project. I'm motivated to work in teams, learn, and contribute to collective success.",
-      spinnin: "FRONTEND DEVELOPER - FRONTEND DEVELOPER - ",
+        "I'm committed to continuous improvement and excellence in every project. My approach focuses on developing high-quality software, teamwork, and delivering scalable solutions that create value and contribute to business success.",
+      spinnin: "FULL STACK DEVELOPER JUNIOR - DEVELOPER - ",
     },
     services: {
       subtitle: "Services",
       title: "How can I help you?",
       cards: {
         card_1: {
-          title: "Optimization & Performance",
+          title: "Optimization and Performance",
           description:
             "Improving load speed, technical SEO, and accessibility for optimal web performance.",
         },
         card_2: {
-          title: "API & Backend Integration",
+          title: "API and Backend Integration",
           description:
-            "Connecting interfaces with REST or GraphQL APIs for efficient backend communication.",
+            "Connecting interfaces with REST or GraphQL APIs for efficient communication with the backend.",
         },
         card_3: {
-          title: "Animations & UX/UI Design",
+          title: "Animations and UX/UI Design",
           description:
             "Designing attractive interfaces with smooth animations and interactive experiences.",
+        },
+        card_4: {
+          title: "Figma Prototyping",
+          description:
+            "High-fidelity mockups design in Figma for web and mobile applications.",
+        },
+        card_5: {
+          title: "Design Consultancy",
+          description:
+            "Consultancy in UI/UX interface design and user experience.",
+        },
+        card_6: {
+          title: "Web Page Creation",
+          description:
+            "Development of web pages using technologies such as **Angular, React, Next.js, and WordPress**, tailored to your needs and objectives.",
         },
       },
     },
