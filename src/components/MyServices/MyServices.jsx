@@ -1,21 +1,16 @@
 "use client";
-import Zap from "@/assets/icons/Zap";
-import Server from "@/assets/icons/Server";
-import Paint from "@/assets/icons/Paint";
 import styles from "./MyServices.module.css";
-import WebDesign from "@/assets/icons/WebDesign";
-import FigmaLayout from "@/assets/icons/FigmaLayout";
-import DesignConsulting from "@/assets/icons/DesignConsulting";
 import { useEffect, useRef } from "react";
 import { servicesAnimation } from "@/utils/animationGsap/AnimationGsap";
 import { useTranslation } from "@/hooks/useTranslations";
+import { Bolt, Server, Brush, LayoutTemplate, Lightbulb, Monitor } from "lucide-react";
 
 const MyServices = () => {
   const t = useTranslation();
 
   const services = [
     {
-      icon: <Zap color="var(--subtitle)" width="25px" height="25px" />,
+      icon: <Bolt color="var(--subtitle)" width="25px" height="25px" />,
       title: t.services.cards.card_1.title,
       description: t.services.cards.card_1.description,
     },
@@ -25,24 +20,24 @@ const MyServices = () => {
       description: t.services.cards.card_2.description,
     },
     {
-      icon: <Paint color="var(--subtitle)" width="25px" height="25px" />,
+      icon: <Brush color="var(--subtitle)" width="25px" height="25px" />,
       title: t.services.cards.card_3.title,
       description: t.services.cards.card_3.description,
     },
     {
-      icon: <FigmaLayout color="var(--subtitle)" width="25px" height="25px" />,
+      icon: <LayoutTemplate color="var(--subtitle)" width="25px" height="25px" />,
       title: t.services.cards.card_4.title,
-      description: t.services.cards.card_1.description,
+      description: t.services.cards.card_4.description,
     },
     {
-      icon: <DesignConsulting color="var(--subtitle)" width="25px" height="25px" />,
+      icon: <Lightbulb color="var(--subtitle)" width="25px" height="25px" />,
       title: t.services.cards.card_5.title,
-      description: t.services.cards.card_2.description,
+      description: t.services.cards.card_5.description,
     },
     {
-      icon: <WebDesign color="var(--subtitle)" width="25px" height="25px" />,
+      icon: <Monitor color="var(--subtitle)" width="25px" height="25px" />,
       title: t.services.cards.card_6.title,
-      description: t.services.cards.card_3.description,
+      description: t.services.cards.card_6.description,
     },
   ];
 

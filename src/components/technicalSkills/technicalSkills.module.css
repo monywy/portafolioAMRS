@@ -1,0 +1,182 @@
+.container {
+  padding: 130px 20px 0px;
+}
+
+.content_title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+
+
+.subtitle {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #007bff;
+  margin-right: 10px;
+}
+
+.chartGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  justify-items: center; 
+}
+
+.chartContainer {
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+}
+
+.chartTitle {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.chartColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra la gráfica y el título */
+}
+
+.container .content_title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content_title .subtitle {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  border: 1px solid var(--border);
+  background-color: var(--bg);
+  padding: 5px 15px;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.circle {
+  width: 8px;
+  height: 8px;
+  background: #10b981;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.content_title h2 {
+  font-size: 40px;
+  font-weight: 400;
+  color: var(--title);
+  letter-spacing: -1.5px;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  gap: 2rem; 
+  width: 100%;
+  max-width: 1200px;
+}
+
+.textColumn,
+.chartColumn {
+  flex: 1; /* Cada columna toma el mismo espacio */
+  min-width: 300px; /* Aseguramos que las columnas tengan un ancho mínimo */
+}
+
+.textColumn p {
+  color: #e5e7eb;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.chartColumn svg {
+  width: 100%;
+  max-width: 400px; /* Ajustamos el tamaño de los gráficos */
+  height: auto;
+}
+
+.tooltip {
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.bar {
+  transition: fill 0.2s ease-in-out;
+}
+
+/* Estilos responsivos */
+@media (max-width: 1024px) {
+  .wrapper {
+    flex-direction: column; /* En pantallas medianas, ponemos todo en columna */
+    align-items: center;
+  }
+
+  .textColumn,
+  .chartColumn {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .chartGrid {
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas por fila en pantallas medianas */
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column; /* En pantallas pequeñas, todo en columna */
+    align-items: center;
+  }
+
+  .textColumn,
+  .chartColumn {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .chartGrid {
+    grid-template-columns: 1fr; /* Una columna por fila en pantallas pequeñas */
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.chartColumn svg {
+  animation: fadeIn 1s ease-out;
+}

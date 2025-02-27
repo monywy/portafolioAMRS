@@ -14,7 +14,7 @@ export const translations = {
     },
     aboutMe: {
       title: "Sobre mi",
-      paragraph_1: "¡Hola! Soy Mónica, desarrollador full stack junior.",
+      paragraph_1: "¡Hola! Soy Mónica, desarrolladora full stack junior.",
       paragraph_2:
         "Me especializo en el desarrollo de aplicaciones web y móviles intuitivas y eficientes, diseñadas para optimizar la experiencia del usuario. Cada desafío representa una oportunidad para innovar y ofrecer soluciones tecnológicas de alto impacto.",
       paragraph_3:
@@ -53,9 +53,63 @@ export const translations = {
         card_6: {
           title: "Creación de Páginas Web",
           description:
-            "Desarrollo de páginas web con tecnologías como **Angular, React, Next.js y WordPress**, adaptadas a tus necesidades y objetivos.",
+            "Desarrollo de páginas web con tecnologías como Angular, React, Next.js y WordPress, adaptadas a tus necesidades y objetivos.",
         },
       },
+    },
+    skills: {
+      "subtitle": "Habilidades Técnicas",
+      "title": "¿Qué tecnologías necesitas implementar en tu proyecto?",
+      "title1": "Análisis y Diseño",
+      "title2": "Desarrollo Web y Móvil",
+      "title3": "Backend y Bases de Datos",
+    },
+    skills: {
+      "subtitle": "Habilidades Técnicas",
+      "title": "¿Qué tecnologías necesitas implementar en tu proyecto?",
+      "categories": {
+        "Análisis y Diseño": {
+          "title": "Análisis y Diseño",
+          "skills": {
+            "Mapas de Calor": "Mapas de Calor",
+            "Adobe XD": "Adobe XD",
+            "Wireframing": "Wireframing",
+            "Sketch": "Sketch",
+            "Usabilidad": "Usabilidad",
+            "Responsividad": "Responsividad",
+            "UI/UX": "UI/UX",
+            "Figma": "Figma"
+          }
+        },
+        "Desarrollo Web y Móvil": {
+          "title": "Desarrollo Web y Móvil",
+          "skills": {
+            "HTML": "HTML",
+            "JavaScript": "JavaScript",
+            "TypeScript": "TypeScript",
+            "Angular": "Angular",
+            "React": "React",
+            "Vue.js": "Vue.js",
+            "Laravel": "Laravel",
+            "Flutter": "Flutter",
+            "PHP": "PHP",
+            "C#": "C#"
+          }
+        },
+        "Backend y Bases de Datos": {
+          "title": "Backend y Bases de Datos",
+          "skills": {
+            "MongoDB": "MongoDB",
+            "SQL Server": "SQL Server",
+            "Firebase": "Firebase",
+            "AWS": "AWS",
+            "Node.js": "Node.js",
+            "Express": "Express",
+            "MySQL": "MySQL",
+            "PostgreSQL": "PostgreSQL"
+          }
+        }
+      }
     },
     projects: {
       subtitle: "Proyectos",
@@ -209,10 +263,58 @@ export const translations = {
         card_6: {
           title: "Web Page Creation",
           description:
-            "Development of web pages using technologies such as **Angular, React, Next.js, and WordPress**, tailored to your needs and objectives.",
+            "Development of web pages using technologies such as Angular, React, Next.js, and WordPress, tailored to your needs and objectives.",
         },
       },
     },
+   
+    skills: {
+    "subtitle": "Technical Skills",
+    "title": "What technologies do you need to implement in your project?",
+    "categories": {
+      "Analysis and Design": {
+        "title": "Analysis and Design",
+        "skills": {
+          "Heat Maps": "Heat Maps",
+          "Adobe XD": "Adobe XD",
+          "Wireframing": "Wireframing",
+          "Sketch": "Sketch",
+          "Usability": "Usability",
+          "Responsiveness": "Responsiveness",
+          "UI/UX": "UI/UX",
+          "Figma": "Figma"
+        }
+      },
+      "Web and Mobile Development": {
+        "title": "Web and Mobile Development",
+        "skills": {
+          "HTML": "HTML",
+          "JavaScript": "JavaScript",
+          "TypeScript": "TypeScript",
+          "Angular": "Angular",
+          "React": "React",
+          "Vue.js": "Vue.js",
+          "Laravel": "Laravel",
+          "Flutter": "Flutter",
+          "PHP": "PHP",
+          "C#": "C#"
+        }
+      },
+      "Backend and Databases": {
+        "title": "Backend and Databases",
+        "skills": {
+          "MongoDB": "MongoDB",
+          "SQL Server": "SQL Server",
+          "Firebase": "Firebase",
+          "AWS": "AWS",
+          "Node.js": "Node.js",
+          "Express": "Express",
+          "MySQL": "MySQL",
+          "PostgreSQL": "PostgreSQL"
+        }
+      }
+    }
+  },
     projects: {
       subtitle: "Projects",
       title: "Select work",
