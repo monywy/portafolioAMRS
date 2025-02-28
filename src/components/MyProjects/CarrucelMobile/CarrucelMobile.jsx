@@ -12,7 +12,8 @@ const CarrucelMobile = forwardRef((props, ref) => {
       <div className={styles.move}>
         {projects.map((project, index) => (
           <Link
-            href={`/detail/${project.id}`}
+           // href={`/detail/${project.id}`}
+            href={``}
             key={index}
             className={styles.card}
             ref={(el) => (ref.current[index] = el)}

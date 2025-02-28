@@ -12,16 +12,16 @@ const poppins = Poppins({
 
 export const metadata = {
   metadataBase: new URL("https://MónicaRoque.com.ar/"),
-  title: "Mónica Roque Sánchez  - Front End Developer",
+  title: "Mónica Roque Sánchez  - Desarrolladora Full Stack Junio",
   description:
-    "Desarrollador Front End en React y Next.js, creando aplicaciones web optimizadas y experiencias de usuario. Descubre mis proyectos y desafíos profesionales.",
+    "¡Hola! Soy Mónica, desarrolladora full stack junior.Me especializo en el desarrollo de aplicaciones web y móviles intuitivas y eficientes, diseñadas para optimizar la experiencia del usuario. Cada desafío representa una oportunidad para innovar y ofrecer soluciones tecnológicas de alto impacto.",
   keywords:
-    "Mónica Roque Sánchez , Front End Developer, desarrollador web, React, Next.js, desarrollo de aplicaciones, interfaces de usuario, diseño web, JavaScript, desarrollo web, UI/UX, optimización de rendimiento, integración de APIs, desarrollo responsivo, animaciones web, tecnologías modernas",
+    "Mónica Roque Sánchez ,Desarrolladora Full Stack Junior, Me especializo en el desarrollo de aplicaciones web y móviles intuitivas y eficientes, diseñadas para optimizar la experiencia del usuario. Cada desafío representa una oportunidad para innovar y ofrecer soluciones tecnológicas de alto impacto.",
   author: "Mónica Roque Sánchez ",
   openGraph: {
-    title: "Mónica Roque Sánchez  - Front End Developer",
+    title: "Mónica Roque Sánchez  - Desarrolladora Full Stack Junior",
     description:
-      "Desarrollador Front End con experiencia en React y Next.js, especializado en la creación de interfaces intuitivas y optimizadas.",
+      "Me especializo en el desarrollo de aplicaciones web y móviles intuitivas y eficientes, diseñadas para optimizar la experiencia del usuario. Cada desafío representa una oportunidad para innovar y ofrecer soluciones tecnológicas de alto impacto.",
     images: "/image.jpeg",
     url: "/",
     type: "website",
@@ -32,9 +32,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mónica Roque Sánchez  - Front End Developer",
+    title: "Mónica Roque Sánchez  - Desarrolladora Full Stack Junior",
     description:
-      "Soy desarrollador Front End con experiencia en React y Next.js. Diseño y desarrollo aplicaciones web con un enfoque en rendimiento y usabilidad.",
+      "Me especializo en el desarrollo de aplicaciones web y móviles intuitivas y eficientes, diseñadas para optimizar la experiencia del usuario. Cada desafío representa una oportunidad para innovar y ofrecer soluciones tecnológicas de alto impacto.",
     images: "/image.jpeg",
   },
 };

@@ -1,5 +1,5 @@
 import { forwardRef } from "react";
-import { getProjects } from "@/utils/info/Info"; // Importa la función getProjects
+import { getProjects } from "@/utils/info/Info"; 
 import styles from "./CarrucelProject.module.css";
 import Image from "next/image";
 import Link from "next/link";
@@ -16,7 +16,9 @@ const CarrucelProject = forwardRef((props, ref) => {
       <div className={styles.move}>
         {copyProject.map((project, index) => (
           <Link
-            href={`/detail/${project.id}`}
+            //
+            // href={`/detail/${project.id}`}
+            href={``}
             key={index}
             className={styles.card}
             ref={(el) => (ref.current[index] = el)}
