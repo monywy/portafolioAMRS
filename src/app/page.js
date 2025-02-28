@@ -1,4 +1,5 @@
 "use client";
+import { Analytics } from '@vercel/analytics/react';
 import MainPage from "@/components/MainPage/MainPage";
 import styles from "./page.module.css";
 import AboutMe from "@/components/AboutMe/AboutMe";
@@ -18,6 +19,7 @@ export default function Home() {
       <MyProjects />
       <ContactMe />
       <WhatsAppButton />
+      <Analytics />
     </main>
   );
 }
