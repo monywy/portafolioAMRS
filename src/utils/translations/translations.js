@@ -64,53 +64,6 @@ export const translations = {
       "title2": "Desarrollo Web y Móvil",
       "title3": "Backend y Bases de Datos",
     },
-    skills: {
-      "subtitle": "Habilidades Técnicas",
-      "title": "¿Qué tecnologías necesitas implementar en tu proyecto?",
-      "categories": {
-        "Análisis y Diseño": {
-          "title": "Análisis y Diseño",
-          "skills": {
-            "Mapas de Calor": "Mapas de Calor",
-            "Adobe XD": "Adobe XD",
-            "Wireframing": "Wireframing",
-            "Sketch": "Sketch",
-            "Usabilidad": "Usabilidad",
-            "Responsividad": "Responsividad",
-            "UI/UX": "UI/UX",
-            "Figma": "Figma"
-          }
-        },
-        "Desarrollo Web y Móvil": {
-          "title": "Desarrollo Web y Móvil",
-          "skills": {
-            "HTML": "HTML",
-            "JavaScript": "JavaScript",
-            "TypeScript": "TypeScript",
-            "Angular": "Angular",
-            "React": "React",
-            "Vue.js": "Vue.js",
-            "Laravel": "Laravel",
-            "Flutter": "Flutter",
-            "PHP": "PHP",
-            "C#": "C#"
-          }
-        },
-        "Backend y Bases de Datos": {
-          "title": "Backend y Bases de Datos",
-          "skills": {
-            "MongoDB": "MongoDB",
-            "SQL Server": "SQL Server",
-            "Firebase": "Firebase",
-            "AWS": "AWS",
-            "Node.js": "Node.js",
-            "Express": "Express",
-            "MySQL": "MySQL",
-            "PostgreSQL": "PostgreSQL"
-          }
-        }
-      }
-    },
     projects: {
       subtitle: "Proyectos",
       title: "Seleccione un trabajo",
@@ -183,6 +136,10 @@ export const translations = {
           technologies: "Javascript · React.js · Next.js · CSS Modules · GSAP",
         },
       },
+    },
+    whatsappButton: {
+      title1:"Contáctame",
+      title2:"Mándame mensaje"
     },
     contactMe: {
       subtitle: "Contactame",
@@ -388,6 +345,10 @@ export const translations = {
           technologies: "Javascript · React.js · Next.js · CSS Modules · GSAP",
         },
       },
+    },
+    whatsappButton: {
+      title1:"Contact me",
+      title2:"Send me a message"
     },
     contactMe: {
       subtitle: "Contact Me",

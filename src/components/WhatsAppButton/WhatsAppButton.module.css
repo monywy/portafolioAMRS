@@ -1,0 +1,83 @@
+.whatsappContainer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .whatsappButton {
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    animation: bounce 1.5s infinite alternate;
+  }
+  
+  .whatsappButton:hover {
+    transform: scale(1.1);
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-8px);
+    }
+  }
+  
+  .tooltip {
+    position: absolute;
+    bottom: 56px;
+    right: 50px;
+    background-color: #6225d3;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    white-space: nowrap;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: fadeInOut 2s ease-in-out;
+  }
+
+  .tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 4px;
+    transform: translateX(0);
+    border-width: 8px;
+    border-style: solid;
+  border-color: #6225d3 transparent transparent transparent;
+}
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: translateX(10px);
+    }
+    20% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    80% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(10px);
+    }
+  }
+  
+  

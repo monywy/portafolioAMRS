@@ -168,6 +168,19 @@
   }
 }
 
+@media (max-width: 425px) {
+  .container {
+    gap: 10px;
+  }
+  .content_title h2 {
+    display: none;
+  }
+
+  .content_card_services .card_service {
+    padding: 2rem 1.5rem;
+  }
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
