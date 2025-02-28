@@ -56,7 +56,7 @@ const NavBar = () => {
     >
       <nav className={styles.nav_bar}>
         <div className={styles.avar_user}>
-          <Link href={"/"} className={styles.container_image}>
+          <Link href="https://wa.me/529984139599"  target="_blank" className={styles.container_image}>
             <Image
               src={user_profile}
               width={50}
@@ -74,10 +74,10 @@ const NavBar = () => {
                 <div className={styles.circle_green} ref={circleRef}></div>
               </div>
               <Link
-                href={"https://www.linkedin.com/in/mónica-roque-75a904291/"}
-                target="_blank"
-                onMouseEnter={() => setScaling(true)}
-                onMouseLeave={() => setScaling(false)}
+                 href={"https://www.linkedin.com/in/mónica-roque-75a904291/"}
+                 target="_blank"
+                 onMouseEnter={() => setScaling(true)}
+                 onMouseLeave={() => setScaling(false)}
               >
                 {t.navbar.user}
               </Link>

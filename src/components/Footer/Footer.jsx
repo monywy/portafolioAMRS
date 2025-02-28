@@ -111,7 +111,7 @@ const Footer = () => {
           <ul className={styles.navigate} ref={list_two}>
             <li>
               <Link
-                href={"https://www.linkedin.com/in/Mónica-Roque Sánchez/"}
+                href={"https://www.linkedin.com/in/mónica-roque-75a904291/"}
                 target="_blank"
                 onMouseEnter={() => setScaling(true)}
                 onMouseLeave={() => setScaling(false)}
