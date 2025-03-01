@@ -35,7 +35,7 @@ export const metadata = {
     title: "Mónica Roque Sánchez  - Desarrolladora Full Stack Junior",
     description:
       "Me especializo en el desarrollo de aplicaciones web y móviles intuitivas y eficientes, diseñadas para optimizar la experiencia del usuario. Cada desafío representa una oportunidad para innovar y ofrecer soluciones tecnológicas de alto impacto.",
-    images: "/image.jpeg",
+    images: "assets/images/image_profile.webp", 
   },
 };
 

@@ -46,9 +46,9 @@ export const translations = {
             "Diseño de maquetas de alta fidelidad en Figma para aplicaciones web y móviles.",
         },
         card_5: {
-          title: "Asesorías de Diseño",
+          title: "Desarrollo de proyectos freelance",
           description:
-            "Consultoría en diseño de interfaces y experiencia de usuario (UI/UX).",
+            "Desarrollo de proyectos a medida, adaptados a las necesidades del cliente, con tecnologías modernas y eficientes.",
         },
         card_6: {
           title: "Creación de Páginas Web",
@@ -213,9 +213,9 @@ export const translations = {
             "High-fidelity mockups design in Figma for web and mobile applications.",
         },
         card_5: {
-          title: "Design Consultancy",
+          title: "Freelance project development",
           description:
-            "Consultancy in UI/UX interface design and user experience.",
+            "Development of customized projects, adapted to the client's needs, with modern and efficient technologies.",
         },
         card_6: {
           title: "Web Page Creation",

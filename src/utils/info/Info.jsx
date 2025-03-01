@@ -10,8 +10,8 @@ import PosadaCapture_1 from "@/assets/images/PosadaMawida/capture_1.webp";
 import driverCard from "@/assets/images/Drivers/DriverCard.webp";
 import driversModal from "@/assets/images/Drivers/headerModalDriver.webp";
 import driversCapture_1 from "@/assets/images/Drivers/Capture_1.webp";
-import weDevelopCard from "@/assets/images/WeDevelop/CardWeDevelop.webp";
-import weDevelopModal from "@/assets/images/WeDevelop/headerModalWeDevelop.webp";
+import MexicoDestinosCard from "@/assets/images/MexicoDestinos/img2.jpg";
+import MexicoDestinosModal from "@/assets/images/MexicoDestinos/img1portada.png";
 import weCapture_1 from "@/assets/images/WeDevelop/capture_1.webp";
 import grupoZuritaCard from "@/assets/images/GrupoZurita/GrupoZuritaCard.webp";
 import grupoZuritaBanner from "@/assets/images/GrupoZurita/grupoZuritaBanner.webp";
@@ -27,8 +27,8 @@ export const getProjects = () => {
       name: t.projects.projectDetails.weDevelop.name,
       cargo: t.projects.projectDetails.weDevelop.cargo,
       date: t.projects.projectDetails.weDevelop.date,
-      imageCard: weDevelopCard,
-      imageModal: weDevelopModal,
+      imageCard: MexicoDestinosCard,
+      imageModal:MexicoDestinosModal,
       paragraph_1: t.projects.projectDetails.weDevelop.paragraph_1,
       paragraph_2: t.projects.projectDetails.weDevelop.paragraph_2,
       technologies:
