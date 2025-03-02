@@ -10,8 +10,12 @@ import PosadaCapture_1 from "@/assets/images/PosadaMawida/capture_1.webp";
 import driverCard from "@/assets/images/Drivers/DriverCard.webp";
 import driversModal from "@/assets/images/Drivers/headerModalDriver.webp";
 import driversCapture_1 from "@/assets/images/Drivers/Capture_1.webp";
-import MexicoDestinosCard from "@/assets/images/MexicoDestinos/img2.jpg";
+import MexicoDestinosCard from "@/assets/images/MexicoDestinos/img2.png";
 import MexicoDestinosModal from "@/assets/images/MexicoDestinos/img1portada.png";
+import MIACard from "@/assets/images/MIA/mia-reef3.jpg";
+import MIACard1 from "@/assets/images/MIA/mia-bacalar.webp";
+import MIACard2 from "@/assets/images/MIA/city-villahermosa.webp";
+import XtremeJumpingCard from "@/assets/images/XtremeJumping/xtreme-jumping.webp";
 import weCapture_1 from "@/assets/images/WeDevelop/capture_1.webp";
 import grupoZuritaCard from "@/assets/images/GrupoZurita/GrupoZuritaCard.webp";
 import grupoZuritaBanner from "@/assets/images/GrupoZurita/grupoZuritaBanner.webp";
@@ -41,7 +45,7 @@ export const getProjects = () => {
       name: t.projects.projectDetails.drivers.name,
       cargo: t.projects.projectDetails.drivers.cargo,
       date: t.projects.projectDetails.drivers.date,
-      imageCard: driverCard,
+      imageCard: MIACard,
       imageModal: driversModal,
       paragraph_1: t.projects.projectDetails.drivers.paragraph_1,
       paragraph_2: t.projects.projectDetails.drivers.paragraph_2,
@@ -56,7 +60,7 @@ export const getProjects = () => {
       name: t.projects.projectDetails.symbioNet.name,
       cargo: t.projects.projectDetails.symbioNet.cargo,
       date: t.projects.projectDetails.symbioNet.date,
-      imageCard: SymbioNetCard,
+      imageCard: MIACard1,
       imageModal: SymbionNetFirtBanner,
       paragraph_1: t.projects.projectDetails.symbioNet.paragraph_1,
       paragraph_2: t.projects.projectDetails.symbioNet.paragraph_2,
@@ -71,7 +75,7 @@ export const getProjects = () => {
       name: t.projects.projectDetails.grupoZurita.name,
       cargo: t.projects.projectDetails.grupoZurita.cargo,
       date: t.projects.projectDetails.grupoZurita.date,
-      imageCard: grupoZuritaCard,
+      imageCard:MIACard2,
       imageModal: grupoZuritaBanner,
       paragraph_1: t.projects.projectDetails.grupoZurita.paragraph_1,
       paragraph_2: t.projects.projectDetails.grupoZurita.paragraph_2,
@@ -86,7 +90,7 @@ export const getProjects = () => {
       name: t.projects.projectDetails.posadaMawida.name,
       cargo: t.projects.projectDetails.posadaMawida.cargo,
       date: t.projects.projectDetails.posadaMawida.date,
-      imageCard: mawidaCard,
+      imageCard: XtremeJumpingCard,
       imageModal: posadaModal,
       paragraph_1: t.projects.projectDetails.posadaMawida.paragraph_1,
       paragraph_2: t.projects.projectDetails.posadaMawida.paragraph_2,
