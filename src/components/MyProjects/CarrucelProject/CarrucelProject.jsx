@@ -17,8 +17,7 @@ const CarrucelProject = forwardRef((props, ref) => {
         {copyProject.map((project, index) => (
           <Link
             //
-            // href={`/detail/${project.id}`}
-            href={``}
+            href={`/detail/${project.id}`}
             key={index}
             className={styles.card}
             ref={(el) => (ref.current[index] = el)}

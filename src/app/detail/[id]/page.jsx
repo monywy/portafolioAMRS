@@ -73,33 +73,36 @@ const DetailPage = () => {
           <p>{findProject.paragraph_2}</p>
         </div>
         <div className={styles.technologies} ref={paragraph_three}>
-          <span>{t.detail_projects.title_2}</span>
-          <div className={styles.text_and_buttons}>
-            <p>{findProject.technologies}</p>
-            <div className={styles.container_button}>
-              <Link
-                href={findProject.repository}
-                target="_blank"
-                onMouseEnter={() => setScaling(true)}
-                onMouseLeave={() => setScaling(false)}
-              >
-                <GitHub color="white" width="20px" height="20px" />
-                {t.detail_projects.button_1}
-              </Link>
-              {findProject?.web && (
-                <Link
-                  href={findProject.web}
-                  target="_blank"
-                  onMouseEnter={() => setScaling(true)}
-                  onMouseLeave={() => setScaling(false)}
-                >
-                  <Url color="white" width="20px" height="20px" />
-                  Web
-                </Link>
-              )}
-            </div>
-          </div>
-        </div>
+  <span>{t.detail_projects.title_2}</span>
+  <div className={styles.text_and_buttons}>
+    <p>{findProject.technologies}</p>
+    <div className={styles.container_button}>
+      {findProject?.repository && (
+        <Link
+          href={findProject.repository}
+          target="_blank"
+          onMouseEnter={() => setScaling(true)}
+          onMouseLeave={() => setScaling(false)}
+        >
+          <GitHub color="white" width="20px" height="20px" />
+          {t.detail_projects.button_1}
+        </Link>
+      )}
+      {findProject?.web && (
+        <Link
+          href={findProject.web}
+          target="_blank"
+          onMouseEnter={() => setScaling(true)}
+          onMouseLeave={() => setScaling(false)}
+        >
+          <Url color="white" width="20px" height="20px" />
+          Web
+        </Link>
+      )}
+    </div>
+  </div>
+</div>
+
         <Image
           src={findProject.img}
           alt={`Image ${findProject.name}`}
