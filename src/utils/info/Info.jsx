@@ -3,7 +3,7 @@ import SymbionNetFirtBanner from "@/assets/images/SymbioNet/first_banner.webp";
 import SymbioNet from "@/assets/images/SymbioNet/symbionet_detail.webp";
 import portfolioModal from "@/assets/images/CardioTrack/cardio-track1.png";
 import portfolioCard from "@/assets/images/Portfolio/cardPortfolio.webp";
-import portfolioCapture_1 from "@/assets/images/CardioTrack/img2.png";
+import portfolioCapture_1 from "@/assets/images/CardioTrack/panel-cardiotrack.png";
 import mawidaCard from "@/assets/images/PosadaMawida/mawidaCard.webp";
 import posadaModal from "@/assets/images/PosadaMawida/headerModalPosada.webp";
 import PosadaCapture_1 from "@/assets/images/PosadaMawida/capture_1.webp";
@@ -22,8 +22,8 @@ import MIACard2 from "@/assets/images/MIA/city-villahermosa.webp";
 import MIAModal2 from "@/assets/images/MIA/city-villahermosa2.webp";
 import MIAImg3 from "@/assets/images/MIA/villahermosa3.png";
 import XtremeJumpingCard from "@/assets/images/XtremeJumping/xtreme-jumping.webp";
-import XtremeJumpingModal from "@/assets/images/XtremeJumping/xtreme3.jpg";
-import XtremeJumpingImg from "@/assets/images/XtremeJumping/xtreme1.png";
+import XtremeJumpingModal from "@/assets/images/XtremeJumping/xtreme1.png";
+import XtremeJumpingImg from "@/assets/images/XtremeJumping/panel-xtreme.png";
 import CardioTrackCard from "@/assets/images/CardioTrack/img-product2.webp";
 import grupoZuritaBanner from "@/assets/images/GrupoZurita/grupoZuritaBanner.webp";
 import grupoZuritaWeb from "@/assets/images/GrupoZurita/paginaWebZurita.webp";
@@ -100,7 +100,7 @@ export const getProjects = () => {
       paragraph_1: t.projects.projectDetails.posadaMawida.paragraph_1,
       paragraph_2: t.projects.projectDetails.posadaMawida.paragraph_2,
       technologies:
-        "Angular · SCSS · Heroku · Mongo DB · Firebase · Strippe · Figma",
+        "Angular · SCSS · Heroku · Mongo DB · Firebase · Strippe · Figma · Prime NG",
       repository: "https://github.com/Freetzen/Menu-Posada-Mawida",
       img: XtremeJumpingImg,
     },
@@ -115,7 +115,7 @@ export const getProjects = () => {
       paragraph_1: t.projects.projectDetails.personalPortfolio.paragraph_1,
       paragraph_2: t.projects.projectDetails.personalPortfolio.paragraph_2,
       technologies:
-        "JavaScript · React.js · Next.js · CSS Modules · Zustand · GSAP",
+        "Angular · SCSS · Firebase · MongoDB · Google Analytics · Prime NG · Adobe XD",
       web: "https://www.cardiotrack.mx/home",
       img: portfolioCapture_1,
     },

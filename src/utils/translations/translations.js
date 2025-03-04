@@ -76,11 +76,11 @@ export const translations = {
           cargo: "Junior Full Stack Developer",
           date: "Septiembre 2024",
           paragraph_1:
-            "En este portafolio, encontrarás una selección de mis trabajos más representativos. Cada proyecto ha sido una oportunidad para aplicar mis conocimientos y habilidades de manera creativa y efectiva. Cada uno cuenta una historia única sobre mi enfoque, capacidad para resolver problemas y atención al detalle.",
+            " Cardiotrack, enfocada en proporcionar soluciones innovadoras que no solo mejoren la eficiencia operativa, sino que también garantizan un entorno de trabajo seguro y productivo.",
           paragraph_2:
-            "Durante el desarrollo de mi portafolio, diseñé e implementé la funcionalidad utilizando Next.js y React.js, estilizando los componentes con CSS Modules y gestionando el cambio de idioma de forma global con Zustand. Además, incorporé GSAP para crear animaciones fluidas e interactivas. Me enfoqué en la adaptabilidad, el rendimiento y una presentación visual efectiva para destacar mis habilidades y proyectos de manera clara y profesional.",
+            "Elaboración de diseño y maquetado de la página en angular con SCSS, así como un panel administrativo para gestionar el contenido de la página (Imagenes, blog, etc).",
           technologies:
-            "JavaScript · React.js · Next.js · CSS Modules · Zustand · GSAP",
+            "Angular · SCSS · Firebase · Mongo DB · Google Analitics ",
         },
         symbioNet: {
           name: "MIA BACALAR",
@@ -278,77 +278,18 @@ export const translations = {
       paragraph_git_hub_1: "Thanks for exploring my works!",
       paragraph_git_hub_2: "Discover more on my GitHub.",
       button: "Visit GitHub",
-      projectDetails: {
-        personalPortfolio: {
-          name: "CardioTrack",
-          cargo: "Junior Full Stack Developer",
-          date: "Septiembre 2024",
-          paragraph_1:
-            "In this portfolio, you will find a selection of my most representative work. Each project has been an opportunity to apply my knowledge and skills in a creative and effective way. Each one tells a unique story about my approach, problem-solving ability, and attention to detail.",
-          paragraph_2:
-            "During the development of my portfolio, I designed and implemented the functionality using Next.js and React.js, styling the components with CSS Modules and managing global language changes with Zustand. Additionally, I incorporated GSAP to create smooth and interactive animations. I focused on adaptability, performance, and a visually effective presentation to showcase my skills and projects clearly and professionally.",
-          technologies:
-            "JavaScript · React.js · Next.js · CSS Modules · Zustand · GSAP",
-        },
-        symbioNet: {
-          name: "MIA BACALAR",
-          cargo: "Web Developer",
-          date: "February 2024",
-          paragraph_1:
-            "MÍA Bacalar is designed to maintain perfect harmony between architecture and nature, offering unique holistic experiences in the region.",
-          paragraph_2:
-            "As a web developer, I used React JS along with JavaScript to build an interactive user interface on the frontend. A complete redesign of the page was carried out, improving the UI/UX, as well as making enhancements and optimizations to the SQL APIs.",
-          technologies: "JavaScript · React · Tailwind CSS · SQL · PostgreSQL · Adobe XD",
-        },
-        
-        weDevelop: {
-          name: "Mexico Destinations",
-          cargo: "Front End Developer",
-          date: "January 2019",
-          paragraph_1:
-            "Founded in Cancun, Quintana Roo, by a group of young entrepreneurs in 2007, Mexico Destinations offers personalized Packages, Tours, and other services, along with an innovative Payment Plan System that has established it as one of the most important and preferred Travel Agencies in the Mexican market.",
-          paragraph_2:
-            "As a Front End Developer, I worked on the redesign of the quote system, UX improvements, responsiveness, and API consumption optimization.",
-          technologies:
-            "Javascript · ReactJs · NodeJs · Express · MongoDB · Stripe",
-        },
-
-        posadaMawida: {
-          name: "Xtreme Jumping",
-          cargo: "Junior Full Stack Developer",
-          date: "August 2024",
-          paragraph_1:
-            "Xtreme Jumping is a Mexican trampoline park franchise for all ages.",
-          paragraph_2:
-            "I worked on the design, layout, and development of the project from front-end to back-end, creating a trampoline park website with a ticket purchasing system and an administration panel.",
-          technologies:
-            "Angular · SCSS · Heroku · MongoDB · Firebase · Stripe · Figma",
-        },
-        
-        drivers: {
-          name: "MIA REEF ISLA MUJERES",
-          cargo: "Web Developer",
-          date: "January 2024",
-          paragraph_1:
-            "As one of the most private and secluded hotels in Cancún, MÍA Reef Resort in Isla Mujeres is a destination of luxury and tranquility by the sea, located on North Beach at the very end of the island.",
-          paragraph_2:
-            "As a web developer, I used React JS along with JavaScript to build an interactive user interface on the frontend. A complete redesign of the page was carried out, improving the UI/UX, as well as making enhancements and optimizations to the SQL APIs.",
-          technologies:
-            "JavaScript · React · Tailwind CSS · SQL · PostgreSQL · Adobe XD",
-        },
-        
-        grupoZurita: {
-          name: "MIA CITY VILLAHERMOSA",
-          cargo: "Web Developer",
-          date: "March 2024",
-          paragraph_1:
-            "This centrally located hotel offers the perfect location for business travelers and leisure guests. MÍA City Villahermosa is an elegant hotel near the central business district, fabulous shopping, and popular tourist attractions.",
-          paragraph_2:
-            "As a web developer, I used React JS along with JavaScript to build an interactive user interface on the frontend. A complete redesign of the page was carried out, improving the UI/UX, as well as making enhancements and optimizations to the SQL APIs.",
-          technologies: "JavaScript · React · Tailwind CSS · SQL · PostgreSQL · Adobe XD",
-        },
-        
+      personalPortfolio: {
+        name: "CardioTrack",
+        cargo: "Junior Full Stack Developer",
+        date: "September 2024",
+        paragraph_1:
+          "CardioTrack focuses on providing innovative solutions that not only improve operational efficiency but also ensure a safe and productive work environment.",
+        paragraph_2:
+          "Designed and developed the website layout using Angular with SCSS, along with an administrative panel to manage website content (images, blog, etc.).",
+        technologies:
+          "Angular · SCSS · Firebase · MongoDB · Google Analytics · Prime NG",
       },
+      
     },
     whatsappButton: {
       title1:"Contact me",
