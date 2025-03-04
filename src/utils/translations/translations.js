@@ -278,18 +278,77 @@ export const translations = {
       paragraph_git_hub_1: "Thanks for exploring my works!",
       paragraph_git_hub_2: "Discover more on my GitHub.",
       button: "Visit GitHub",
-      personalPortfolio: {
-        name: "CardioTrack",
-        cargo: "Junior Full Stack Developer",
-        date: "September 2024",
-        paragraph_1:
-          "CardioTrack focuses on providing innovative solutions that not only improve operational efficiency but also ensure a safe and productive work environment.",
-        paragraph_2:
-          "Designed and developed the website layout using Angular with SCSS, along with an administrative panel to manage website content (images, blog, etc.).",
-        technologies:
-          "Angular · SCSS · Firebase · MongoDB · Google Analytics · Prime NG",
+      projectDetails: {
+        personalPortfolio: {
+          name: "CardioTrack",
+          cargo: "Junior Full Stack Developer",
+          date: "September 2024",
+          paragraph_1:
+            "CardioTrack focuses on providing innovative solutions that not only improve operational efficiency but also ensure a safe and productive work environment.",
+          paragraph_2:
+            "Designed and developed the website layout using Angular with SCSS, along with an administrative panel to manage website content (images, blog, etc.).",
+          technologies:
+            "Angular · SCSS · Firebase · MongoDB · Google Analytics · Prime NG",
+        },
+        symbioNet: {
+          name: "MIA BACALAR",
+          cargo: "Web Developer",
+          date: "February 2024",
+          paragraph_1:
+            "MÍA Bacalar is designed to maintain perfect harmony between architecture and nature, offering unique holistic experiences in the region.",
+          paragraph_2:
+            "As a web developer, I used React JS along with JavaScript to build an interactive user interface on the frontend. A complete redesign of the page was carried out, improving the UI/UX, as well as making enhancements and optimizations to the SQL APIs.",
+          technologies: "JavaScript · React · Tailwind CSS · SQL · PostgreSQL · Adobe XD",
+        },
+        
+        weDevelop: {
+          name: "Mexico Destinations",
+          cargo: "Front End Developer",
+          date: "January 2019",
+          paragraph_1:
+            "Founded in Cancun, Quintana Roo, by a group of young entrepreneurs in 2007, Mexico Destinations offers personalized Packages, Tours, and other services, along with an innovative Payment Plan System that has established it as one of the most important and preferred Travel Agencies in the Mexican market.",
+          paragraph_2:
+            "As a Front End Developer, I worked on the redesign of the quote system, UX improvements, responsiveness, and API consumption optimization.",
+          technologies:
+            "Javascript · ReactJs · NodeJs · Express · MongoDB · Stripe",
+        },
+
+        posadaMawida: {
+          name: "Xtreme Jumping",
+          cargo: "Junior Full Stack Developer",
+          date: "August 2024",
+          paragraph_1:
+            "Xtreme Jumping is a Mexican trampoline park franchise for all ages.",
+          paragraph_2:
+            "I worked on the design, layout, and development of the project from front-end to back-end, creating a trampoline park website with a ticket purchasing system and an administration panel.",
+          technologies:
+            "Angular · SCSS · Heroku · MongoDB · Firebase · Stripe · Figma",
+        },
+        
+        drivers: {
+          name: "MIA REEF ISLA MUJERES",
+          cargo: "Web Developer",
+          date: "January 2024",
+          paragraph_1:
+            "As one of the most private and secluded hotels in Cancún, MÍA Reef Resort in Isla Mujeres is a destination of luxury and tranquility by the sea, located on North Beach at the very end of the island.",
+          paragraph_2:
+            "As a web developer, I used React JS along with JavaScript to build an interactive user interface on the frontend. A complete redesign of the page was carried out, improving the UI/UX, as well as making enhancements and optimizations to the SQL APIs.",
+          technologies:
+            "JavaScript · React · Tailwind CSS · SQL · PostgreSQL · Adobe XD",
+        },
+        
+        grupoZurita: {
+          name: "MIA CITY VILLAHERMOSA",
+          cargo: "Web Developer",
+          date: "March 2024",
+          paragraph_1:
+            "This centrally located hotel offers the perfect location for business travelers and leisure guests. MÍA City Villahermosa is an elegant hotel near the central business district, fabulous shopping, and popular tourist attractions.",
+          paragraph_2:
+            "As a web developer, I used React JS along with JavaScript to build an interactive user interface on the frontend. A complete redesign of the page was carried out, improving the UI/UX, as well as making enhancements and optimizations to the SQL APIs.",
+          technologies: "JavaScript · React · Tailwind CSS · SQL · PostgreSQL · Adobe XD",
+        },
+        
       },
-      
     },
     whatsappButton: {
       title1:"Contact me",

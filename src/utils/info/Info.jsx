@@ -25,8 +25,6 @@ import XtremeJumpingCard from "@/assets/images/XtremeJumping/xtreme-jumping.webp
 import XtremeJumpingModal from "@/assets/images/XtremeJumping/xtreme1.png";
 import XtremeJumpingImg from "@/assets/images/XtremeJumping/panel-xtreme.png";
 import CardioTrackCard from "@/assets/images/CardioTrack/img-product2.webp";
-import grupoZuritaBanner from "@/assets/images/GrupoZurita/grupoZuritaBanner.webp";
-import grupoZuritaWeb from "@/assets/images/GrupoZurita/paginaWebZurita.webp";
 import { useTranslation } from "@/hooks/useTranslations";
 
 export const getProjects = () => {
