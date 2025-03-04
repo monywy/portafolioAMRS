@@ -135,6 +135,39 @@ export const translations = {
           "Como desarrollador web, utilicé React JS junto con JavaScript para construir una interfaz de usuario interactiva en el frontend, se realizó un rediseño completo de la página mejorando UI/UX de la página, así como realizando mejoras y optimización de las APIs en SQL.",
           technologies:  "Javascript · React · Tailwind CSS · SQL · Postgresql ·Adobe XD",
         },
+        sonoraGlobal: {
+          name: "Sonora Global",
+          cargo: "Junior Full Stack Developer",
+          date: "Octubre 2024",
+          paragraph_2:
+            "Rediseño de página web mejoras UI/UX, traducciones del sitio, elaboración de panel para administración de contenidos(parques industriales, eventos, noticias, etc.).",
+          paragraph_1:
+            "Una organización privada orientada al desarrollo económico e industrial del estado de Sonora, en colaboración con el sector empresarial, sector académico y sector público.",
+          technologies:
+            "Angular · SCSS · Firebase · MongoDB · Brevo · Prime NG",
+        },
+        Mersol: {
+          name: "Mersol",
+          cargo: "Junior Full Stack Developer",
+          date: "Noviembre 2024",
+          paragraph_1:
+            "Distribuidora de herramientas y ferretera más grande del sureste.",
+          paragraph_2:
+            "Desarrollo de maquetado en angular con prime ng, estructuración de diversos formularios de contacto para el cliente, mejoras de UI/UX, optimización de recursos y tiempos de carga, adicional a ello, se estructuro y se preparo para google analitics.",
+          technologies:
+            "Angular · SCSS · Firebase · MongoDB · Brevo · Prime NG .Google Analitics",
+        },
+        IO: {
+          name: "Instituto Oriente",
+          cargo: "Junior Full Stack Developer",
+          date: "Diciembre 2024",
+          paragraph_1:
+            "Ofrecer un modelo de educación integral de calidad y excelencia académica y humana, con clara inspiración cristiana, guiada por la espiritualidad y modo de proceder ignacianos, para formar personas conscientes, competentes, comprometidas, compasivas y contemplativas en la acción, para la construcción de una sociedad más justa, humana y reconciliada.",
+          paragraph_2:
+            "Desarrollo de mejoras UI/UX en la página, creación de panel de administración para la página, además de diseño y creación de la landing de la campaña IO Mi Segunda Casa.",
+          technologies:
+            "Angular · SCSS · Firebase · MongoDB · Brevo · Prime NG .Google Analitics",
+        },
       },
     },
     whatsappButton: {
@@ -347,6 +380,40 @@ export const translations = {
             "As a web developer, I used React JS along with JavaScript to build an interactive user interface on the frontend. A complete redesign of the page was carried out, improving the UI/UX, as well as making enhancements and optimizations to the SQL APIs.",
           technologies: "JavaScript · React · Tailwind CSS · SQL · PostgreSQL · Adobe XD",
         },
+        sonoraGlobal: {
+          name: "Sonora Global",
+          cargo: "Junior Full Stack Developer",
+          date: "October 2024",
+          paragraph_2:
+            "Redesigned the website with UI/UX improvements, site translations, and developed an admin panel for content management (industrial parks, events, news, etc.).",
+          paragraph_1:
+            "A private organization focused on the economic and industrial development of the state of Sonora, in collaboration with the business sector, academia, and public sector.",
+          technologies:
+            "Angular · SCSS · Firebase · MongoDB · Brevo · Prime NG",
+        },
+        Mersol: {
+          name: "Mersol",
+          cargo: "Junior Full Stack Developer",
+          date: "November 2024",
+          paragraph_1:
+            "The largest hardware and tool distributor in the southeast.",
+          paragraph_2:
+            "Developed the layout in Angular with PrimeNG, structured various contact forms for the client, improved UI/UX, optimized resources and loading times. Additionally, the project was structured and prepared for Google Analytics.",
+          technologies:
+            "Angular · SCSS · Firebase · MongoDB · Brevo · Prime NG · Google Analytics",
+        },
+        IO: {
+          name: "Instituto Oriente",
+          cargo: "Junior Full Stack Developer",
+          date: "December 2024",
+          paragraph_1:
+            "Providing a comprehensive education model of quality and academic and human excellence, with a clear Christian inspiration, guided by Ignatian spirituality and way of proceeding, to form conscious, competent, committed, compassionate, and contemplative individuals in action, contributing to the construction of a more just, humane, and reconciled society.",
+          paragraph_2:
+            "Developed UI/UX improvements for the website, created an administration panel for the site, and designed and built the landing page for the 'IO Mi Segunda Casa' campaign.",
+          technologies:
+            "Angular · SCSS · Firebase · MongoDB · Brevo · Prime NG · Google Analytics",
+        },
+        
         
       },
     },

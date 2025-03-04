@@ -1,14 +1,8 @@
-import SymbioNetCard from "@/assets/images/SymbioNet/Symbionet.webp";
-import SymbionNetFirtBanner from "@/assets/images/SymbioNet/first_banner.webp";
-import SymbioNet from "@/assets/images/SymbioNet/symbionet_detail.webp";
 import portfolioModal from "@/assets/images/CardioTrack/cardio-track1.png";
-import portfolioCard from "@/assets/images/Portfolio/cardPortfolio.webp";
 import portfolioCapture_1 from "@/assets/images/CardioTrack/panel-cardiotrack.png";
-import mawidaCard from "@/assets/images/PosadaMawida/mawidaCard.webp";
-import posadaModal from "@/assets/images/PosadaMawida/headerModalPosada.webp";
-import PosadaCapture_1 from "@/assets/images/PosadaMawida/capture_1.webp";
-import driversModal from "@/assets/images/Drivers/headerModalDriver.webp";
-import driversCapture_1 from "@/assets/images/Drivers/Capture_1.webp";
+import sonoraGlobalCard from "@/assets/images/sonoraGlobal/SG.jpg";
+import sonoraGlobalModal from "@/assets/images/sonoraGlobal/SonoraGlobalPage.png";
+import sonoraGlobalCapture_1 from "@/assets/images/sonoraGlobal/panel-sonora.png";
 import MexicoDestinosCard from "@/assets/images/MexicoDestinos/img6.png";
 import MexicoDestinosModal from "@/assets/images/MexicoDestinos/img5.png";
 import MexicoDestinosImg from "@/assets/images/MexicoDestinos/img1portada.png";
@@ -25,6 +19,12 @@ import XtremeJumpingCard from "@/assets/images/XtremeJumping/xtreme-jumping.webp
 import XtremeJumpingModal from "@/assets/images/XtremeJumping/xtreme1.png";
 import XtremeJumpingImg from "@/assets/images/XtremeJumping/panel-xtreme.png";
 import CardioTrackCard from "@/assets/images/CardioTrack/img-product2.webp";
+import MersolCard from "@/assets/images/Mersol/logoMS.png";
+import MersolModal from "@/assets/images/Mersol/pageMersol.png";
+import MersolCapture_1 from "@/assets/images/Mersol/pageMersol2.png";
+import IOCard from "@/assets/images/IO/IOlogo.jpg";
+import IOModal from "@/assets/images/IO/IOpage.png";
+import IOCapture_1 from "@/assets/images/IO/IOpage2.png";
 import { useTranslation } from "@/hooks/useTranslations";
 
 export const getProjects = () => {
@@ -116,6 +116,48 @@ export const getProjects = () => {
         "Angular · SCSS · Firebase · MongoDB · Google Analytics · Prime NG · Adobe XD",
       web: "https://www.cardiotrack.mx/home",
       img: portfolioCapture_1,
+    },
+    {
+      id: 7,
+      name: t.projects.projectDetails.sonoraGlobal.name,
+      cargo: t.projects.projectDetails.sonoraGlobal.cargo,
+      date: t.projects.projectDetails.sonoraGlobal.date,
+      imageCard: sonoraGlobalCard,
+      imageModal: sonoraGlobalModal,
+      paragraph_1: t.projects.projectDetails.sonoraGlobal.paragraph_1,
+      paragraph_2: t.projects.projectDetails.sonoraGlobal.paragraph_2,
+      technologies:
+      "Angular · SCSS · Firebase · MongoDB · Brevo · Prime NG",
+      web: "https://sonoraglobal.com.mx/en",
+      img: sonoraGlobalCapture_1,
+    },
+    {
+      id: 8,
+      name: t.projects.projectDetails.Mersol.name,
+      cargo: t.projects.projectDetails.Mersol.cargo,
+      date: t.projects.projectDetails.Mersol.date,
+      imageCard: MersolCard,
+      imageModal: MersolModal,
+      paragraph_1: t.projects.projectDetails.Mersol.paragraph_1,
+      paragraph_2: t.projects.projectDetails.Mersol.paragraph_2,
+      technologies:
+      "Angular · SCSS · Firebase · MongoDB · Brevo · Prime NG · Google Analitics",
+      web: "https://merida.mersolsureste.com.mx/home",
+      img: MersolCapture_1,
+    },
+    {
+      id: 9,
+      name: t.projects.projectDetails.IO.name,
+      cargo: t.projects.projectDetails.IO.cargo,
+      date: t.projects.projectDetails.IO.date,
+      imageCard: IOCard,
+      imageModal: IOModal,
+      paragraph_1: t.projects.projectDetails.IO.paragraph_1,
+      paragraph_2: t.projects.projectDetails.IO.paragraph_2,
+      technologies:
+      "Angular · SCSS · Firebase · MongoDB · Brevo · Prime NG · Google Analitics",
+      web: "https://ioriente.edu.mx/es",
+      img: IOCapture_1,
     },
   ];
 };
