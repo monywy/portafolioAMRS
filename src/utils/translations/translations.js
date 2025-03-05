@@ -36,15 +36,15 @@ export const translations = {
             "Conectando interfaces con APIs REST o GraphQL para una comunicación eficiente con el backend.",
         },
         card_3: {
-          title: "Animaciones y Diseño UX/UI",
+          title: "Animaciones, UX/UI y Maquetado",
           description:
-            "Diseñando interfaces atractivas con animaciones fluidas y experiencias interactivas.",
+            "Diseño de interfaces interactivas con animaciones fluidas y maquetas en Figma.",
         },
         card_4: {
-          title: "Maquetado en Figma",
+          title: "CI/CD y Automatización",
           description:
-            "Diseño de maquetas de alta fidelidad en Figma para aplicaciones web y móviles.",
-        },
+            "Optimización de despliegues con pipelines CI/CD para mayor eficiencia y menos errores.",
+        },               
         card_5: {
           title: "Desarrollo de proyectos freelance",
           description:
@@ -168,6 +168,17 @@ export const translations = {
           technologies:
             "Angular · SCSS · Firebase · MongoDB · Brevo · Prime NG .Google Analitics",
         },
+         PS: {
+          name: "Pie Sano",
+          cargo: "Junior Full Stack Developer",
+          date: "Enero 2024",
+          paragraph_1:
+            "Clínica podológica por excelencia en Cancún, con 5 años atendiendo la salud de tus pies con dedicación y compromiso en el Caribe Mexicano.",
+          paragraph_2:
+            "Desarrollo de mejoras UI/UX en la página, gestión de mejoras y rediseño de panel de administración para gestión de citas, correcciones de errores, optimización de BD, correos y mantenimiento constante.",
+          technologies:
+            "Angular · SCSS · Firebase · MongoDB · Brevo · Prime NG .Google Analitics",
+        },
       },
     },
     whatsappButton: {
@@ -235,16 +246,16 @@ export const translations = {
           description:
             "Connecting interfaces with REST or GraphQL APIs for efficient communication with the backend.",
         },
-        card_3: {
-          title: "Animations and UX/UI Design",
-          description:
-            "Designing attractive interfaces with smooth animations and interactive experiences.",
-        },
-        card_4: {
-          title: "Figma Prototyping",
-          description:
-            "High-fidelity mockups design in Figma for web and mobile applications.",
-        },
+       card_3: {
+       title: "Animations, UX/UI, and Prototyping",
+       description:
+      "Interactive interfaces with smooth animations and Figma mockups.",
+       },
+      card_4: {
+      title: "CI/CD and Automation",
+      description:
+     "Optimized deployments with CI/CD pipelines for efficiency and fewer errors.",
+      },
         card_5: {
           title: "Freelance project development",
           description:
@@ -413,8 +424,17 @@ export const translations = {
           technologies:
             "Angular · SCSS · Firebase · MongoDB · Brevo · Prime NG · Google Analytics",
         },
-        
-        
+        PS: {
+        name: "Pie Sano",
+        cargo: "Junior Full Stack Developer",
+        date: "January 2024",
+        paragraph_1:
+        "Leading podiatry clinic in Cancún, providing dedicated foot health care for over five years in the Mexican Caribbean.",
+         paragraph_2:
+        "UI/UX improvements, redesign and enhancement of the admin panel for appointment management, bug fixes, database optimization, email handling, and ongoing maintenance.",
+        technologies:
+        "Angular · SCSS · Firebase · MongoDB · Brevo · Prime NG · Google Analytics",
+        }   
       },
     },
     whatsappButton: {

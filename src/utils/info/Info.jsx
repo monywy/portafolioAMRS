@@ -25,6 +25,9 @@ import MersolCapture_1 from "@/assets/images/Mersol/pageMersol2.png";
 import IOCard from "@/assets/images/IO/IOlogo.jpg";
 import IOModal from "@/assets/images/IO/IOpage.png";
 import IOCapture_1 from "@/assets/images/IO/IOpage2.png";
+import PSCard from "@/assets/images/pie-sano/logoPS.jpeg";
+import PSModal from "@/assets/images/pie-sano/page1PS.png";
+import PSCapture_1 from "@/assets/images/pie-sano/page3PS.png";
 import { useTranslation } from "@/hooks/useTranslations";
 
 export const getProjects = () => {
@@ -158,6 +161,20 @@ export const getProjects = () => {
       "Angular · SCSS · Firebase · MongoDB · Brevo · Prime NG · Google Analitics",
       web: "https://ioriente.edu.mx/es",
       img: IOCapture_1,
+    },
+    {
+      id: 10,
+      name: t.projects.projectDetails.PS.name,
+      cargo: t.projects.projectDetails.PS.cargo,
+      date: t.projects.projectDetails.PS.date,
+      imageCard: PSCard,
+      imageModal: PSModal,
+      paragraph_1: t.projects.projectDetails.PS.paragraph_1,
+      paragraph_2: t.projects.projectDetails.PS.paragraph_2,
+      technologies:
+      "Angular · SCSS · Firebase · MongoDB · Brevo · Prime NG · Google Analitics",
+      web: "https://piesano.com.mx/es/home",
+      img: PSCapture_1,
     },
   ];
 };

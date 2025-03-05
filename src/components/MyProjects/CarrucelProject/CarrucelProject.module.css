@@ -8,7 +8,7 @@
 .slider .move {
   display: flex;
   width: calc(565px * 12);
-  animation: animacion 30s linear infinite;
+  animation: animacion 40s linear infinite;
 }
 
 @keyframes animacion {
@@ -16,7 +16,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-565px * 9));
+    transform: translateX(calc(-565px * 10));
   }
 }
 
@@ -26,6 +26,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
   will-change: transform;
 }
 
@@ -39,6 +40,7 @@
   display: flex;
   align-items: center;
   border-radius: 10px;
+  position: relative;
 }
 
 .card .content_image img {
@@ -47,6 +49,29 @@
   height: 650px;
   object-fit: cover;
   object-position: center;
+}
+
+.card .project_name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.card:hover .project_name {
+  opacity: 1;
 }
 
 @media (max-width: 1300px) {

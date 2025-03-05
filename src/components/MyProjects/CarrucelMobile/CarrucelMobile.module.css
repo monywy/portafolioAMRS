@@ -3,18 +3,21 @@
   display: none;
   align-items: center;
   scrollbar-width: none;
+
 }
 
 .slider::-webkit-scrollbar {
   scrollbar-width: none;
 }
 .slider img {
-  width: 500px;
-  height: 550px;
+  width: 100%;
+  height: auto;
   border-radius: 15px;
   object-fit: cover;
   object-position: center;
 }
+
+
 
 .slider .move {
   display: flex;
@@ -23,8 +26,20 @@
   align-items: center;
   gap: 15px;
   padding: 0px 15px;
-  overflow-y: hidden;
+  animation: autoplay 35s linear infinite;
+  
 }
+
+@keyframes autoplay {
+  0% {
+    transform: translateX(0); /* Comienza en la posición inicial */
+  }
+  100% {
+    transform: translateX(-100%); /* Desplazamiento hacia la izquierda */
+  }
+}
+
+
 
 @media (max-width: 768px) {
   .slider {

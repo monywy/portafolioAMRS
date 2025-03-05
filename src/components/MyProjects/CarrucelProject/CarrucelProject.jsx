@@ -32,7 +32,9 @@ const CarrucelProject = forwardRef((props, ref) => {
                 height={700}
                 alt={project.name}
               />
+             
             </div>
+            <div className={styles.project_name}>{project.name}</div>
           </Link>
         ))}
       </div>
